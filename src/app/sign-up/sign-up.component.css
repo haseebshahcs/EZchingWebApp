@@ -1,0 +1,285 @@
+/* You can add global styles to this file, and also import other style files */
+.logo {
+    width: auto;
+    height: 57px;
+    margin-left: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.nav-adjust {
+    background-color: #16976e;
+    color : #fff;
+}
+
+.SignIn-btn {
+    background: #fff;
+    color: #16976e;
+    border: none;
+    border-radius: 200px;
+    padding: 3px 20px 3px 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.SignIn-btn:hover {
+    color: #16976e;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.295);
+}
+/* ===============
+Section 1 styling start
+==================== */
+.banner {
+    margin-top: 130px;
+}
+.banner h6 {
+    font-weight: 350;
+}
+.SignUp-css {
+    background: #19a779;
+    /*padding-bottom: 20%;*/
+}
+
+.SignUp-box {
+    /*margin-top: 20%;*/
+   justify-content: center;
+    min-width: 100%;
+    height: 520px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+.SignUp-Text {
+    color: #16976e;
+    font-weight: bold;
+}
+.SignUp-icon-box-google {
+    background: #DB4437;
+    color: #fff;
+    padding: 7px 60px;
+    border-radius: 50px;
+    min-width: 10%;
+    transition: 0.3s;
+}
+.SignUp-icon-box-google:hover {
+    cursor: pointer;
+    background: #ad392f;
+}
+.SignUp-icon-box-facebook {
+    background: #4267B2;
+    color: #fff;
+    padding: 7px 60px;
+    min-width: 10%;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.SignUp-icon-box-facebook:hover {
+    cursor: pointer;
+    background: #32508d;
+}
+.form-group input{
+    border-radius: 50px;
+    border: 1.5px solid #16976e;
+}
+.SignUp-Form{
+    position: relative;
+  }
+  .SignUp-Form input {
+    padding-left: 40px;
+  }
+  
+  .SignUp-Form .icon {
+    position: absolute;
+    left: 20px;
+    top: 18px;
+    padding: 9px 8px;
+    font-size: 20px;
+    color: #16976e;
+  }
+  .SignUp-Form .eye-icon {
+      float: right;
+      margin-top: -27px;
+      padding-right: 17px;
+      color: #16976e;
+}
+.form-group input::placeholder {
+    color: #16976e;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #16976e;
+  }
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #16976e;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #16976e;
+  }
+.Terms {
+    font-size: 12px;
+}
+.Terms i {
+    color: #19a779;
+    margin-top: 5px;
+    padding-right: 5px;
+    font-size: 5px;
+}
+.Terms span {
+    color: #19a779;
+    cursor: pointer;
+}
+
+
+.btn-SignUp{
+    background: #19a779;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+.btn-SignUp:hover {
+    cursor: pointer;
+    color: #fff;
+    background: #148a65;
+}
+
+/* ===============
+Section 1 styling end
+==================== */
+
+
+
+
+/* ===============
+Section 2 styling start
+==================== */
+
+.cards-info {
+    background: #16976e;
+}
+section .card {
+    border: none;
+    border-radius: 20px;
+    height: 250px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.2);
+}
+.icon-back {
+    width: 100%;
+    height: 100px;
+    background: #f6f6f6;
+    font-size: 50px;
+    color: #16976e;
+    border-radius: 20px;
+}
+
+
+/* ===============
+Section 2 styling end
+==================== */
+
+
+footer {
+    background: #19a779;
+    color: #fff;
+}
+.footer-icons i {
+    font-size: 18px;
+    transition: 0.3s;
+    cursor: none;
+}
+.footer-icons i:hover {
+    transform: scale(1.2);
+    color: #fff;
+}
+footer li {
+    font-weight: 300;
+    font-size: 16px;
+}
+.footer-copyright {
+    margin-left: 15%;
+    font-size: 12px;
+}.fa-chevron-up {
+    float: right;
+    margin-right: 10%;
+    border: 1.7px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* ===============
+    media queries
+==================== */
+
+@media screen and (width: 1024px) {
+    .SignUp-box {
+        width: 130%;
+        margin-left: -40px;
+    
+    }
+    .SignUp-icon-box-google {
+        padding: 7px 30px;
+        min-width: 10%;
+    }
+    .SignUp-icon-box-facebook {
+        padding: 7px 30px;
+        min-width: 10%;
+
+        
+    }
+  }
+
+@media screen and (width: 768px) {
+    .SignUp-box {
+        min-width: 130%;
+        margin-left: -40px;
+    
+    }
+    .SignUp-icon-box-google {
+        padding: 7px 35px;
+        min-width: 10%;
+    }
+    .SignUp-icon-box-facebook {
+        padding: 7px 35px;
+        min-width: 10%;
+
+        
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .banner {
+        margin-top: -100px;
+    }
+    .SignUp-icon-box-google {
+      padding: 7px 70px;
+      min-width: 10%;
+  }
+  .SignUp-icon-box-facebook {
+      padding: 7px 70px;
+      min-width: 10%;   
+  }
+    footer {
+        text-align: center;
+    }
+  }
+  @media screen and (max-width: 320px) {
+      .SignUp-icon-box-google {
+          padding: 7px 50px;
+          min-width: 10%;
+      }
+      .SignUp-icon-box-facebook {
+          padding: 7px 50px;
+          min-width: 10%;   
+      }
+  }
